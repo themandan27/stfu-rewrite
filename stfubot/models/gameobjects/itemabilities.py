@@ -58,7 +58,7 @@ def sheer_heart_attack(
     if len(valid_stand) != 0:
         target = random.choice(valid_stand)
         target.current_hp -= multiplier
-        message = f"｢{stand.name}｣'s Sheer heart attack explode on {target.name} for {multiplier} damage"
+        message = f"｢{stand.name}｣'s Sheer heart attack explodes on {target.name} for {multiplier} damage"
     message = f"Sheer heart attack schearch for ennemies"
     return message
 
@@ -71,7 +71,7 @@ def red_stone_of_aja(
     stand.current_damage += 50
     stand.current_critical += 50
 
-    message = f"｢{stand.name}｣ becomes transcend"
+    message = f"｢{stand.name}｣ transcends!"
 
     return message
 
@@ -82,7 +82,7 @@ def stone_mask(
     stand.current_hp += 30
     stand.current_damage += 30
 
-    message = f"｢{stand.name}｣ becomes a vempire"
+    message = f"｢{stand.name}｣ becomes a vampire!"
     return message
 
 
