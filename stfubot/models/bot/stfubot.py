@@ -19,6 +19,7 @@ class StfuBot(commands.AutoShardedInteractionBot):
             242367586233352193,  # EIRBLAST
             112866272106012672,  # Arkkos
             289413979644755970,  # Kelian
+            252405022766137346,  # Vince
         ]
         self.testers = self.developers + [
             248492672979959809,  # EIRBOT
